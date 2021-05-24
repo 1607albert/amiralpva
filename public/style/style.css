@@ -67,6 +67,9 @@ body{
   
    
 }
+.carrousel{
+    width: 40vw;
+}
 .contact-form{
     position: relative;
     display: flex;

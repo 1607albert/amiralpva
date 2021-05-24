@@ -107,7 +107,7 @@ function carrousel (){
   // clearInterval(id)
 
  index++
- console.log(index)
+
 
 }
 
@@ -160,7 +160,7 @@ $("#flip-btn").click(function(e) {
 
             $(".sc3-container").hide()
             $("#img-flip-container").show()
-            setInterval(carrousel,5000)
+            // setInterval(carrousel,5000)
             // $(".sc3-container").removeClass('add_keyframe')
    
 
