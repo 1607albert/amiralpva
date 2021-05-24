@@ -1,0 +1,11 @@
+
+
+
+#map {
+    flex-shrink:3;
+    margin: auto 0 auto 1rem;
+    height: 80%;
+    width: 80%;
+    overflow:visible;
+
+    }

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>admiralpva</title>
+        <meta name="description" content="">
+        <meta name="robots" content="noindex" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style/style.css" >
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>      
+        <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v3.1.3/mapbox-gl-directions.js'></script>
+        <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v3.1.3/mapbox-gl-directions.css' type='text/css' />
+
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
+        
+   
+   
+
+    </head>
+    <body>
+    <nav id="nav">
+      <ul id="nav-buttons">
+          <li><a class="but-ref" href="#sc1" style="color: black"> Accueil</a><i class="fas fa-circle"></i></li>
+          <li><a class="but-ref" href="#sc2" style="color: black"> L'Appartement</a><i class="fas fa-circle"></i></li>
+          <li><a class="but-ref" href="#sc3" style="color: black"> Proximite</a><i class="fas fa-circle"></i></li>
+          <li><a class="but-ref" href="#sc4" style="color: black"> Commerces</a><i class="fas fa-circle"></i></li>
+          <li><a class="but-ref" href="#sc5" style="color: black"> Contact</a><i class="fas fa-circle"></i></li>
+          
+      </ul>
+    </nav>
+    
+    <header>
+        <div class="navbar">
+            <i class="fas fa-bars"></i>
+            <ul id="navlist"class="navlist">
+                <li><a href="" style="color: white">Accueil</a></li>
+                <li><a href="" style="color: white">L'Appartement</a></li>
+                <li><a href="" style="color: white">proximite</a></li>
+                <li><a href="" style="color: white">Commerces </a></li>
+                <li><a href="" style="color: white">contact</a></li>
+            </ul>
+            
+        </div>
+    </header>
+    
+
+   
+   
+        <section class="sc" id="sc1">
+            <div class="sc1-container">
+            <div class="img-container">
+                <img  id="img" class= "img-sc1" src="./images/image_sc1.jpg">
+            </div>
+            <div class="sc1-article">
+                <h1 class="txt-title">Votre voyage commence içi</h1>
+                    <h4 class="txt-sub">Bienvenus à Pleneuf-Val-André, votre voyage commence ici. Nous avons conçu ce site pour vos donner les informations nécessaires pour votre séjour.</h4>
+                    
+                    <h4 class="txt-sub paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt fugit omnis iusto unde sunt, et neque, non aliquid doloribus pariatur doloremque eius nobis aliquam quas quibusdam vitae culpa illum dolorem.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nesciunt ratione amet quas quisquam adipisci optio fugit? Animi velit maiores facilis, nam praesentium ipsum distinctio dicta sapiente earum similique exercitationem!
+                    </h4>
+                    <div id="info-toggle">
+                    <a href="" id="plus" class="fas fa-plus"><h4>plus informations</h4></a>
+                    <a href="" id="less" class="fas fa-minus"><h4>less informations</h4></a>
+                    </div>
+                   
+            </div> 
+        
+            </div>
+            
+        </section>
+   
+        <div class="bot"></div>
+       
+        <section class="sc" id="sc2">
+             <div class="sc2-container min">
+                 <div class="sc2-article">
+                    <h1 class="txt-title">Votre voyage commence içi</h1>  
+                     <h4 class="txt-sub">Voici des idées pour mieux explorer lea lieux sans besoin de prendre la voiture (plages, balades, lieux à Pleneuf)</h4>
+                     <h4 class="txt-sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolores praesentium, minus blanditiis soluta hic deleniti eos atque cumque totam odio dolor consequatur aperiam deserunt doloremque iste fugiat voluptate consectetur!lore</h4>
+
+                 </div>
+                <div class="img-container">
+                 <img id="img" class= "img-sc2"src="./images/backgroundsc2-2.jpg">
+                </div> 
+                
+             </div> 
+        </section>
+        <div class="bot"></div>
+        <section class="sc" id="sc3">
+            <div class="sc3-container min">
+                <div class="img-container">
+                    <img  id="img" class= "img-sc2"src="./images/backgroundsc2-2.jpg">
+                   </div> 
+                <div class="sc3-article">
+                   <h1 class="txt-title">Votre voyage commence içi</h1>  
+                    <h4 class="txt-sub">Voici des idées pour mieux explorer lea lieux sans besoin de prendre la voiture (plages, balades, lieux à Pleneuf)</h4>
+                    <button id="flip-btn">Découvrez l'appartement</button>
+                </div>
+              
+            </div>
+            <div id="flip">
+                <div id="img-flip-container">
+                    <div class="indicadores">
+                        <div id="left"><i id="left-carr" class="fas fa-arrow-left"></i></div>
+                        <div id="right"><i id="right-carr" class="fas fa-arrow-right"></i></div>
+                    </div>
+                    <img class="carrousel" id="img1"src="./images/cocina_ret.jpg" alt="">
+                </div>
+                <div class="sc3-article-flip">
+                    <h1 class="txt-title">This is flipped</h1>
+                    <h4 class="txt-sub">Nous aimons notre appartement, nous espérons que vous vous y sentiez comme chez vous, et vous demandons de le soigner comme si c’était le votre.</h4>
+                    <p class="txt-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aliquid hic accusantium eos, dignissimos similique atque neque, nihil maxime quod vero pariatur temporibus illum cupiditate alias sint laudantium nisi nemo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus atque suscipit officiis eius. Debitis distinctio dolore modi tempore laborum delectus nobis sint voluptatibus. Atque explicabo magni tempore voluptatum voluptatem pariatur?</p>
+                    <button id="flipback">volver</button>
+                </div> 
+            </div>
+          
+            
+        </section>
+        <div class="bot"></div>
+        <section class="sc" id="sc4" >
+            <div class="sc4-container">
+                <div class="sc4-article">
+                    <h1 class="txt-title">Votre voyage commence içi</h1>  
+                    <h4 class="txt-sub"> Whe are heress:
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint mollitia explicabo quaerat libero quas eligendi vel pariatur. Harum, nesciunt rem. Consectetur tenetur quos itaque non eum in quo nihil! Atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi itaque natus dolore necessitatibus cum impedit aut ratione earum culpa, neque maiores rerum at perferendis obcaecati reprehenderit dolorum eos iste delectus.</h4>
+                    <div class="img-container">
+                        <img class="carrousel2" id="img2"src="./images/cocina_ret.jpg" alt="">
+                        <img class="carrousel2" id="img3"src="./images/cocina_ret.jpg" alt="">
+                        <img class="carrousel2" id="img4"src="./images/cocina_ret.jpg" alt="">
+                        <!-- <img class="carrousel2" id="img5"src="./images/cocina_ret.jpg" alt="">         -->
+                    </div>    
+                </div>
+                
+                    <div id='map'></div>                                        
+                  
+            </div>
+        </section>
+        <div class="bot"></div>
+        <section class="sc" id="sc5">
+            <form class= "contact-form">
+                <div>
+                <label for="name">Name</label>
+                <input type="text" name="name"  id="name" placeholder="Full Name" required >
+                </div>
+                <div>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" placeholder="Email" required >
+                </div>
+                
+                <div>
+                <label for="subject">subject</label>
+                <input type="text" name="subject" id="subject" placeholder="Insert your subject" required>
+                </div>
+
+                <div>
+                <label for="message">message</label>
+                <textarea rows="10" type="text" name="message" id="message" placeholder="Insert your message" required></textarea>
+                </div>
+
+                <div>
+                    <input type="submit"  id="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+        <div class="social-media">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+        </div>
+   
+        <script src="./js/main.js" async=false></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    </body>
+
+   
+</html>
