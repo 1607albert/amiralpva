@@ -1,2 +1,2 @@
 # amiralpva
-amiralpva/public/index.html
+/public/index.html
