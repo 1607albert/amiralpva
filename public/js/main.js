@@ -122,13 +122,13 @@ left.addEventListener("click",function(){
     if(index==0|undefined){
       index=(arrayimgs.length-1)
       img.src =arrayimgs[index]
-      console.log(index)
+      
       
     }else{
       
       index--
       img.src = arrayimgs[index]
-      console.log(index)
+    
     }
 
 })
