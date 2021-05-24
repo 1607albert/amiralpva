@@ -4,7 +4,7 @@ const { mail, passmail, mapKey } = require('./config');
 const nodemailer = require('nodemailer');
 
 
-const PORT = process.env.PORT || 443;
+const PORT = process.env.PORT || 5000;
 
 //Middleware
 
@@ -26,15 +26,6 @@ app.post('/', (req, res)=>{
             pass: passmail
         }
     });
-// for alternavie domains:
-// const transporter = nodemailer.createTransport({
-//     host: 'smtp.yourdomain.yourextension',
-//     port: 587, //it can be other por it depends of the mail servive
-//     auth: {
-//         user:'yourmail@yourdomain.com',
-//         pass: 'yourpass'
-//     }
-// });
 
     const mailOptions = {
         from: req.body.email,
