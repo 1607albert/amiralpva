@@ -73,7 +73,7 @@ const arrayimgs = [
 let id = null;
 let i = 0;
 var index=0;
-let img = document.getElementById("img1");
+let img = document.getElementById("img4");
 let indicadores = document.getElementsByClassName("indicadores");
 function carrousel (){
   let opacity = 0;
@@ -180,7 +180,7 @@ $("#flip-btn").click(function(e) {
 
             $(".sc3-container").hide()
             $("#img-flip-container").show()
-            // setInterval(carrousel,5000)
+            setInterval(carrousel,5000)
             // $(".sc3-container").removeClass('add_keyframe')
    
 
