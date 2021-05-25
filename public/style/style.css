@@ -67,9 +67,6 @@ body{
   
    
 }
-.carrousel{
-    width: 40vw;
-}
 .contact-form{
     position: relative;
     display: flex;
@@ -170,17 +167,23 @@ section{
     height: 100%;
 }
 
-.sc2-article, .sc1-article ,.sc3-article, .sc4-article{
+.sc2-article, .sc1-article ,.sc3-article, .sc4-article,.sc3-article-flip{
     flex-grow: 3;
     width: 60vw; 
     margin: auto 0 auto 0;
 
 }
+.carrousel{
+  
+    width: 100%;
+
+}
 #img-flip-container {
     height: fit-content;
     flex-shrink: 3;
-    width: 100%;
+   
     position: relative;
+    object-fit:cover;
 }
 .img-container{
     height: fit-content;
