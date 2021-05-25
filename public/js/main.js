@@ -110,7 +110,27 @@ function carrousel (){
 
 
 }
+const imgBig = document.getElementById("imgIn")
+const modalImg = document.getElementById("modalImage");
+const closeButton = document.getElementById("close");
 
+closeButton.addEventListener("click",function(){
+  modalImg.style.display="none"
+})
+
+
+$("img").click(function(){
+  let imgClicked = document.getElementById(this.id)
+  let modal = document.getElementById(this.parentNode.id)
+  modalImg.style.display="flex"
+  imgBig.src = imgClicked.src
+  // let closeBut = document.querySelector(`.${this.classList[0]}-close`)
+  // console.log(imgClicked)
+  // closeBut.style.color="#FF000"
+  modalImg.classList.add("modal")
+  // closeBut.classList.add("modal")
+  
+})
 
 const right = document.getElementById("right-carr");
 const left = document.getElementById("left-carr");

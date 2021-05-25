@@ -102,7 +102,7 @@ input,textarea{
     opacity: 0.6;
     position: relative;
     height: 5rem;
-    background-image: url(../images/backgroundsc2-2.jpg);
+    background-image: url(../images/backgroundsc2_2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -205,16 +205,46 @@ section{
 }
 .carrousel2{
     position: relative;
+   
     height: 25vh;
     width: 30%;
     object-fit:cover;
 
 }
+#imgIn{
+    max-width: 80vw;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+
+}
+#close{
+    position: absolute;
+    font-size: 3rem;
+    display: block;
+    top: 5rem;
+    right: 5rem;
+
+}
+.hideModal{
+    display: none;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    background-color: #c7cdffaf;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    
+}
+
 i:hover{
     cursor: pointer;
     color: rgb(41, 16, 182);
 }
-#img{
+img{
     
     width: 100%;
     /* animation: image 1s ease 1; */
