@@ -109,11 +109,18 @@ input,textarea{
     background-attachment:fixed;
 }
 .social-media{
+    text-align: center;
+    font-size: 2rem;
     opacity: 0.6;
     position: relative;
-    height: 5rem;
-    background-color: white;
-    color: #97a0e8;
+    /* height: 5rem; */
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
 
 }
 
