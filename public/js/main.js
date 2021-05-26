@@ -124,6 +124,7 @@ $("img").click(function(){
   let modal = document.getElementById(this.parentNode.id)
   modalImg.style.display="flex"
   imgBig.src = imgClicked.src
+  closeButton.style.display="block"
   // let closeBut = document.querySelector(`.${this.classList[0]}-close`)
   // console.log(imgClicked)
   // closeBut.style.color="#FF000"

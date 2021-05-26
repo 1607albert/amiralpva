@@ -226,9 +226,10 @@ section{
 
 }
 #close{
+    cursor: pointer;
     position: absolute;
     font-size: 3rem;
-    display: block;
+    display: none;
     top: 5rem;
     right: 5rem;
 
