@@ -116,11 +116,13 @@ const closeButton = document.getElementById("close");
 
 closeButton.addEventListener("click",function(){
   modalImg.style.display="none"
+  imgBig.style.visibility = "hidden"
 })
 
 
 $("img").click(function(){
   let imgClicked = document.getElementById(this.id)
+  imgBig.style.visibility = "visible"
   let modal = document.getElementById(this.parentNode.id)
   modalImg.style.display="flex"
   imgBig.src = imgClicked.src
